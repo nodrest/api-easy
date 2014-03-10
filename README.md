@@ -1,23 +1,23 @@
 # APIeasy [![Build Status](https://secure.travis-ci.org/flatiron/api-easy.png)](http://travis-ci.org/flatiron/api-easy)
 
-A fluent (i.e. chainable) syntax for generating vows tests against RESTful APIs.
+流利（即环连接）的语法生成针对RESTful API的vows的测试。
 
-## Installation
+## 安装
 
-### Installing npm (node package manager)
+### 安装 npm (node包管理)
 ``` bash
   $ curl http://npmjs.org/install.sh | sh
 ```
 
-### Installing APIeasy
+### 安装APIeasy
 ``` bash
   $ [sudo] npm install api-easy
 ```
 
-## Purpose
+##  目的
 APIeasy is designed to be a simple way to test RESTful APIs in [node.js][0] and Javascript. The primary design goal was to reduce the number of lines of test code required to fully cover all primary and edge use cases of a given API over HTTP.
 
-## Getting Started
+## 入门
 Most of the documentation for this library is available through the [annotated source code, available here][1] thanks to [jashkenas][2] and [docco][3]. If you're not feeling up for that, just keep reading here. tldr;? [Read how to use APIeasy in your own projects][4]
 
 If you're going to use APIeasy (and I hope you do), it's worth taking a moment to understand the way that [vows][5] manages flow control. Read up here on [vowsjs.org][5] (Under "Structure of a test suite"), or just remember vows uses this grammatical structure:
@@ -95,8 +95,8 @@ This same code can be implemented like this using APIeasy:
 ## Using APIeasy in your own project
 There are two ways to use APIeasy in your own project:
 
-1. Using npm
-2. Using vows directly
+1. 使用npm
+2. 直接使用vows
 
 ### Using APIeasy with npm
 If you've used the `npm test` command in [npm][7] before, this should be nothing new. You can read more about the [npm test command here][8]. All you need to do is add the following to your `package.json` file:
@@ -138,18 +138,18 @@ After installing vows you can simply run it from inside your project:
   $ vows
 ```
 
-## Roadmap
+## 路线图
 
-1. [Get feedback][6] on what else could be exposed through this library.
-2. Improve it.
+1. [获得反馈][6] on what else could be exposed through this library.
+2. 改进.
 3. Repeat (1) + (2).
 
-## Run Tests
+## 运行测试
 <pre>
   npm test
 </pre>
 
-#### Author: [Charlie Robbins](http://nodejitsu.com)
+#### 作者: [Charlie Robbins](http://nodejitsu.com)
 
 [0]: http://nodejs.org
 [1]: http://flatiron.github.com/api-easy
