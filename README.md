@@ -92,13 +92,13 @@ This same code can be implemented like this using APIeasy:
 ```
 
 <a name="using-api-easy">
-## Using APIeasy in your own project
+## 在你拥有的项目中使用APIeasy
 There are two ways to use APIeasy in your own project:
 
 1. 使用npm
 2. 直接使用vows
 
-### Using APIeasy with npm
+### 在npm中使用APIeasy
 If you've used the `npm test` command in [npm][7] before, this should be nothing new. You can read more about the [npm test command here][8]. All you need to do is add the following to your `package.json` file:
 
 ``` js
