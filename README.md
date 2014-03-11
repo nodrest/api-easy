@@ -124,7 +124,7 @@ After adding this to your `package.json` file you can run the following to execu
 
 There is also a full working sample of how to use this approach [here][9].
 
-### Using APIeasy with vows
+### 在vows中使用APIeasy
 When you install APIeasy or take it as a dependency in your `package.json` file it will not install [vows][5] globally, so to use vows you must install it globally.
 
 ``` bash
