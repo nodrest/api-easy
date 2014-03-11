@@ -267,7 +267,7 @@
                 APIeasy.describe(text)
               </h2>
               <p>
-                This is the main (and sole) entry point for APIeasy. It responds with an object literal that manages an underlying vows suite. Each call to <code>APIeasy.describe()</code> will create a vows suite, with the corresponding <code>text</code> passed to this method.
+                这是APIeasy主要（唯一）的入口点。. It responds with an object literal that manages an underlying vows suite. Each call to <code>APIeasy.describe()</code> will create a vows suite, with the corresponding <code>text</code> passed to this method.
               </p>
             </td>
             <td class="code">
@@ -285,32 +285,32 @@
                 <a class="pilcrow" href="#section-4">¶</a>
               </div>
               <h3>
-                State / Context management:
+                状态/上下文管理:
               </h3>
               <ul>
                 <li>
-                  <code>suite</code>: The underlying vows suite
+                  <code>suite</code>: 底层的vows套件
                 </li>
                 <li>
-                  <code>discussion</code>: Ordered list containing the set of text to use before each test
+                  <code>discussion</code>: 包含文字组的序列表，在每次测试钱使用
                 </li>
                 <li>
-                  <code>outgoing</code>: Shared options to be passed to the <code>request</code> module on each test.
+                  <code>outgoing</code>: 在每次测试时候传到到<code>请求</code>模块的分享选项
                 </li>
                 <li>
-                  <code>befores</code>: Mapping of named functions to execute before each test to modify the outgoing request options.
+                  <code>befores</code>:每次测试之前执行命名函数的映射修改传出的请求选项
                 </li>
                 <li>
-                  <code>options</code>: Various configuration options for managing nuances of state / scope.
+                  <code>options</code>: 各种配置选项来管理的状态/范围的细微差异。
                 </li>
                 <li>
-                  <code>paths</code>: The set of paths representing the location of the current resource / API method being tested by this object.
+                  <code>paths</code>: 路径组表示本项目测试的当前资源或API方法位置
                 </li>
                 <li>
-                  <code>batch</code>: The object literal representing the current batch of vows tests to eventually be pass to vows <code>.addBatch()</code>.
+                  <code>batch</code>: 对象常量表示vows测试当前批次的，最终被传递给vows <code>.addBatch()</code>.
                 </li>
                 <li>
-                  <code>batches</code>: The set of all batches that have been added to the vows <code>suite</code> associated with this object.
+                  <code>batches</code>: 该组的所有批次，已添加到vows的与此对象相关联的<code>套件</ code>
                 </li>
               </ul>
             </td>
