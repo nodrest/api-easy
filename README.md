@@ -18,7 +18,7 @@
 APIeasy is designed to be a simple way to test RESTful APIs in [node.js][0] and Javascript. The primary design goal was to reduce the number of lines of test code required to fully cover all primary and edge use cases of a given API over HTTP.
 
 ## 入门
-Most of the documentation for this library is available through the [annotated source code, available here][1] thanks to [jashkenas][2] and [docco][3]. If you're not feeling up for that, just keep reading here. tldr;? [Read how to use APIeasy in your own projects][4]
+Most of the documentation for this library is available through the [源码注释, 这里提供][1] thanks to [jashkenas][2] and [docco][3]. If you're not feeling up for that, just keep reading here. tldr;? [阅读如何在你拥有的项目中使用APIeasy][4]
 
 If you're going to use APIeasy (and I hope you do), it's worth taking a moment to understand the way that [vows][5] manages flow control. Read up here on [vowsjs.org][5] (Under "Structure of a test suite"), or just remember vows uses this grammatical structure:
 
